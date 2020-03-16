@@ -1,7 +1,6 @@
 *, *:before, *:after {
     box-sizing: border-box;
     outline: none;
-    margin: 0;
 }
 
 html {
@@ -17,6 +16,7 @@ body {
     width: 100%;
     height: 100vh;
     background-color: #f5f5f5;
+    margin: 0;
 }
 
 .container {
@@ -39,6 +39,7 @@ header .mountains {
     width: 100%;
     height: 100vh;
     z-index: 0;
+    top: 0px;
 }
 
 header .mountains .one, header .mountains .two, header .mountains .three, header .mountains .four, header .mountains .five, header .mountains .six, header .mountains .seven{
