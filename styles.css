@@ -1,4 +1,6 @@
-*, *:before, *:after {
+*,
+*:before,
+*:after {
     box-sizing: border-box;
     outline: none;
 }
@@ -42,7 +44,13 @@ header .parallax {
     top: 0px;
 }
 
-header .parallax .one, header .parallax .two, header .parallax .three, header .parallax .four, header .parallax .five, header .parallax .six, header .parallax .seven{
+header .parallax .one,
+header .parallax .two,
+header .parallax .three,
+header .parallax .four,
+header .parallax .five,
+header .parallax .six,
+header .parallax .seven {
     position: absolute;
     bottom: 0;
     left: 0;
