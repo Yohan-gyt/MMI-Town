@@ -1,3 +1,17 @@
+@font-face {
+    font-family: 'lemon milk';
+    src: url("fonts/lemon_milk/LEMONMILK-Bold.otf") format('otf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'raleway';
+    src: url("fonts/Raleway/Raleway-Regular.ttf") format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 *,
 *:before,
 *:after {
@@ -19,6 +33,7 @@ body {
     height: 100vh;
     background-color: #ffbfa3;
     margin: 0;
+    -ms-overflow-style: none;
 }
 
 .container {
@@ -106,4 +121,9 @@ header .parallax .seven {
 section {
     padding: 50px 0;
     background-color: #160126;
+}
+
+p {
+    font-family: 'raleway';
+    font-size: 1.5em;
 }
