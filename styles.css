@@ -137,6 +137,7 @@ header .parallax p{
 }
 
 section {
+    border: solid green;
     height: 100vh;
     padding: 50px 0;
     background-color: #160126;
@@ -153,14 +154,20 @@ h1{
     font-size: 2.60vw;
 }
 
+.def-mmi{
+    background-image: url("layers/mmi-bg.png");
+    background-size: cover;
+}
+
 .def-mmi .container p{
     width: 70%;
     font-size: 1.5vw;
 }
 
 .def-mmi .container{
+    border: solid orangered;
     position: relative;
-    top: 6em;
+    top: 5em;
 }
 
 nav ul{
@@ -182,12 +189,34 @@ li{
     text-align: center
 }
 
-a{    
-    /* border: orange solid; */
+a{
     padding: 0.5em;
     text-decoration: none;
     font-size: 1.4vw;
     font-family: 'lemon milk';
     font-weight: 500;
     color: white;
+}
+
+.icones{
+    /* border: orange solid; */
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    right: 0em;
+    top: 0em;
+}
+
+.bot{
+    position: absolute;
+    bottom: 0em;
+    left: 40%;
+}
+
+.button{
+    border: white solid;
+    padding: 1em;
+    width: 30%;
+    white-space: nowrap;
 }
