@@ -150,12 +150,14 @@ p {
 }
 
 /* Barre Menu */
+
 nav ul{
     display: flex;
     position: fixed;
     top: 1em;
     right: 2em;
     list-style: none;
+    z-index: 100;
 }
 
 nav img{
@@ -163,6 +165,7 @@ nav img{
     top: 0;
     left: 0;
     width: 8%;
+    z-index: 100;
 }
 
 /* Page MMI, Qu'est-ce que c'est ? */
@@ -226,4 +229,80 @@ a{
     padding: 1em;
     width: 30%;
     white-space: nowrap;
+}
+
+/* Page Poles */
+.pole{
+    height: 180vh;
+    width: 100%;
+    background-image: url("Layers/bg-mmi.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.flex{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.informatique, .culture-a, .com-marketing, .culture-s{
+    padding: 3em;
+    width: 47.5%;
+    background: #220e31;
+    box-shadow: 10px 10px 25px #160126 ;
+    display: inline-block;
+    margin: 1em;
+    position: relative;
+}
+
+.left{
+    text-align: left;
+}
+
+.right{
+    text-align: right;
+}
+
+h2{
+    white-space: nowrap;
+    font-family: 'lemon milk';
+    font-style: italic;
+    font-size: 2vw;
+}
+
+h3{
+    font-family: 'lemon milk';
+    font-style: italic;
+    font-size: 1.3vw;
+    margin: 0px;
+}
+
+.culture-a{
+    position: relative;
+    right: 0;
+}
+
+.informatique img{
+    position: absolute;
+    left: 19vw;
+    top: 3vh;
+    width: 20%;
+
+}
+
+.culture-a img,
+.culture-s img{
+    position: absolute;
+    left: 4vw;
+    top: 2vh;
+    width: 20%;
+}
+
+.margin-top{
+    margin: 0px;
 }
