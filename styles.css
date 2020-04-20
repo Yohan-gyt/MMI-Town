@@ -211,6 +211,10 @@ a{
     top: 0em;
 }
 
+.icones a img{
+    width: 8.5vw;
+}
+
 .bot{
     position: absolute;
     left: 40%;
