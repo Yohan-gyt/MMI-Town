@@ -49,6 +49,7 @@ body {
     margin: 0 auto;
 }
 
+/* Parallax Header - page d'accueil */
 header {
     position: relative;
     width: 100%;
@@ -126,18 +127,18 @@ header .parallax .seven {
     background-size: cover;
 }
 
-
-
-header .parallax p{
+header p{
+    font-family: 'Baloo Paaji 2', cursive;;
     font-size: 2vw;
     position: absolute;
     left: 2vw;
     top: 25%;
     min-width: 1000px;
+
 }
 
 section {
-    border: solid green;
+    /* border: solid green; */
     height: 100vh;
     padding: 50px 0;
     background-color: #160126;
@@ -148,6 +149,23 @@ p {
     font-size: 1.5em;
 }
 
+/* Barre Menu */
+nav ul{
+    display: flex;
+    position: fixed;
+    top: 1em;
+    right: 2em;
+    list-style: none;
+}
+
+nav img{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 8%;
+}
+
+/* Page MMI, Qu'est-ce que c'est ? */
 h1{
     font-family: 'lemon milk';
     font-style: italic;
@@ -165,24 +183,9 @@ h1{
 }
 
 .def-mmi .container{
-    border: solid orangered;
+    /* border: solid orangered; */
     position: relative;
     top: 5em;
-}
-
-nav ul{
-    display: flex;
-    position: fixed;
-    top: 1em;
-    right: 2em;
-    list-style: none;
-}
-
-nav img{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 8%;
 }
 
 li{
@@ -210,8 +213,8 @@ a{
 
 .bot{
     position: absolute;
-    bottom: 0em;
     left: 40%;
+    bottom: -90%;
 }
 
 .button{
