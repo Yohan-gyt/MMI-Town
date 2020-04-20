@@ -141,23 +141,23 @@ section {
     /* border: solid green; */
     height: 100vh;
     padding: 50px 0;
-    background-color: #160126;
+    /* background-color: #160126; */
 }
 
 p {
     font-family: 'raleway';
-    font-size: 1.5em;
+    font-size: 1.5vw;
+
 }
 
 /* Barre Menu */
-
 nav ul{
     display: flex;
     position: fixed;
     top: 1em;
     right: 2em;
     list-style: none;
-    z-index: 100;
+    z-index: 1000;
 }
 
 nav img{
@@ -165,7 +165,7 @@ nav img{
     top: 0;
     left: 0;
     width: 8%;
-    z-index: 100;
+    z-index: 1000;
 }
 
 /* Page MMI, Qu'est-ce que c'est ? */
@@ -175,7 +175,7 @@ h1{
     font-size: 2.60vw;
 }
 
-.def-mmi{
+.def-mmi, .equipe{
     background-image: url("layers/mmi-bg.png");
     background-size: cover;
 }
@@ -250,7 +250,10 @@ a{
     text-align: center;
 }
 
-.informatique, .culture-a, .com-marketing, .culture-s{
+.informatique, 
+.culture-a,
+.com-marketing, 
+.culture-s{
     padding: 3em;
     width: 47.5%;
     background: #220e31;
@@ -306,3 +309,109 @@ h3{
 .margin-top{
     margin: 0px;
 }
+
+/* Commencer */
+.center{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.commencer{
+    background-image: url("layers/cover-commencer.png");
+    background-size: cover;
+    position: relative;
+}
+
+.commencer h1:first-child{
+    font-style: normal;
+}
+
+.commencer p{
+    width: 52vw;
+}
+
+.commencer h1:last-child{
+    border: solid 5px;
+    width: 27vw;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: rgba(255, 255, 255, 0.35);
+}
+
+.back,.back2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.back{
+    background-image: url("layers/bat-commencer.png");
+    z-index:-1;
+    background-position: bottom;
+    background-size: 100%;
+
+}
+
+.back2{
+    background-image: url("layers/bg-commencer.png");
+    background-position: bottom ;
+    z-index: -2;
+    background-size: 100vw;
+    background-color: #7c566e;
+
+}
+
+/* L'équipe */
+.equipe{
+    position: relative;
+}
+
+.equipe .container p{
+    width: 80%;
+
+}
+
+.space{
+    padding:0;
+    justify-content: space-around;
+}
+
+.center h1{
+    font-size: 1.8vw;
+    font-style: normal;
+}
+
+.space p{
+    width: 15%;
+}
+
+.center div{
+    /* border:solid; */
+}
+
+.center img{
+    padding: 1em;
+}
+
+.contacter{
+    position: absolute;
+    left: 40%;
+    bottom: 4%;
+
+    font-size: 1.56vw;
+    border: solid;
+    padding: 1.2vw;
+    width: 19%;
+    text-align: center;
+}
+
