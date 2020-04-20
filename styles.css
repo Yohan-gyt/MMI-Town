@@ -191,9 +191,9 @@ h1{
     top: 5em;
 }
 
-li{
+/* li{
     text-align: center
-}
+} */
 
 a{
     padding: 0.5em;
@@ -233,7 +233,7 @@ a{
 
 /* Page Poles */
 .pole{
-    height: 180vh;
+    height: 190vh;
     width: 100%;
     background-image: url("Layers/bg-mmi.png");
     background-size: 100%;
@@ -241,7 +241,7 @@ a{
 }
 
 .flex{
-    height: 100vh;
+    height: 180vh;
     width: 100%;
     display: flex;
 
@@ -298,8 +298,8 @@ h3{
 .culture-a img,
 .culture-s img{
     position: absolute;
-    left: 4vw;
-    top: 2vh;
+    right: 3.5vw;
+    top: 2.5vh;
     width: 20%;
 }
 
