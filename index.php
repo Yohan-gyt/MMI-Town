@@ -190,7 +190,7 @@
                             Développeur full-stack de l'équipe, Yohan à avec Rachel codé le site web et ses fonctionnalités à partir des wireframes de Jules. Il s'est également occupé de la création et de la gestion de la base de données.
                         </p>
                         <div class="icons">
-                            <a href="#" target="_blank">
+                            <a href="cv/cv_yohan_guyot.pdf" target="_blank">
                                 <img src="img/equipe/doc.png" alt="CV PDF" title="CV PDF">
                             </a>
                             <a href="http://perso-etudiant.u-pem.fr/~yguyot01/cv/" target="_blank">
