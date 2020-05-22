@@ -140,7 +140,7 @@
                             sociaux.
                         </p>
                         <div class="icons">
-                            <a href="#" target="_blank">
+                            <a href="cv/cv_minal_lad.pdf" target="_blank">
                                 <img src="img/equipe/doc.png" alt="" title="CV PDF">
                             </a>
                             <a href="#" target="_blank">
