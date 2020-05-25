@@ -657,6 +657,75 @@ textarea {
 	font-size: 2rem;
 }
 
+/* FICHES MÉTIER */
+.metier {
+	background-image: url("../img/mmi-bg.png");
+	background-size: cover;
+}
+
+.texte_metier {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.fiche {
+	display: grid;
+	grid-template-columns: 5vw 32.5vw 25vw 32.5vw 5vw;
+	grid-template-rows: repeat(3, auto);
+}
+
+.qualite {
+	grid-column: 2/3;
+	grid-row: 1;
+}
+
+.niveau {
+	grid-column: 2/3;
+	grid-row: 2;
+}
+.etudes {
+	grid-column: 2/3;
+	grid-row: 3;
+}
+
+.perso {
+	grid-column: 3/4;
+	grid-row: 1/4;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.taches {
+	grid-column: 4/5;
+	grid-row: 1;
+}
+
+.comp {
+	grid-column: 4/5;
+	grid-row: 2;
+}
+.salaire {
+	grid-column: 4/5;
+	grid-row: 3;
+}
+
+.part {
+	background: #220e31;
+	box-shadow: 10px 10px 25px rgb(19, 3, 36);
+	padding: 20px 50px 20px 50px;
+	margin: 10px;
+}
+
+.fiche h2 {
+	font-family: "lemon milk";
+	font-size: 1.3rem;
+	font-style: italic;
+}
+
 ::selection {
 	color: white;
 	background-color: rgb(197, 165, 218);
