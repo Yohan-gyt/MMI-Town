@@ -91,10 +91,7 @@
 
                 <div class="container-commencer">
                     <h1>DÉCOUVRE LES MÉTIERS</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas doloribus, vero quo dignissimos
-                        sunt dolore, totam
-                        ipsam assumenda, rem porro nemo unde nostrum consectetur eveniet voluptatem voluptates quis in
-                        aperiam?</p>
+                    <p>Pars à la découverte des métiers disponibles après avoir fait un DUT MMI en te baladant dans les univers dédiés à l'audiovisuel, au design, à l'informatique et à la communication. Bonne visite !</p>
                     <div class="button noSelect" id="commencer">
                         <p>COMMENCER</p>
                     </div>
@@ -227,6 +224,12 @@
                     </form>
                 </div>
             </section>
+            <h2>liens vers quelques pages métiers</h2>
+            <a href="metier.php?id=1" target="_blank"><div class="button">id 1</div></a>
+            <a href="metier.php?id=2" target="_blank"><div class="button">id 2</div></a>
+            <a href="metier.php?id=3" target="_blank"><div class="button">id 3</div></a>
+            <a href="metier.php?id=4" target="_blank"><div class="button">id 4</div></a>
+
         </div>
     </div>
 

@@ -661,6 +661,7 @@ textarea {
 .metier {
 	background-image: url("../img/mmi-bg.png");
 	background-size: cover;
+	padding-bottom: 50px;
 }
 
 .texte_metier {
@@ -671,59 +672,84 @@ textarea {
 	text-align: center;
 }
 
-.fiche {
-	display: grid;
-	grid-template-columns: 5vw 32.5vw 25vw 32.5vw 5vw;
-	grid-template-rows: repeat(3, auto);
+.texte_metier h3 {
+	margin-bottom: 0;
+	margin-top: 40px;
+	color: rgb(197, 165, 218);
+	font-style: italic;
+	font-family: "lemon milk";
+	font-size: 1rem;
 }
 
-.qualite {
-	grid-column: 2/3;
-	grid-row: 1;
+.texte_metier h1 {
+	margin-top: 10px;
 }
 
-.niveau {
-	grid-column: 2/3;
-	grid-row: 2;
-}
-.etudes {
-	grid-column: 2/3;
-	grid-row: 3;
-}
-
-.perso {
-	grid-column: 3/4;
-	grid-row: 1/4;
+.metierContent {
+	width: 100vw;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	padding-bottom: 15px;
 }
 
-.taches {
-	grid-column: 4/5;
-	grid-row: 1;
+.slider {
+	display: flex;
+	align-items: center;
+	margin-left: 2vw;
 }
 
-.comp {
-	grid-column: 4/5;
-	grid-row: 2;
-}
-.salaire {
-	grid-column: 4/5;
-	grid-row: 3;
+@media screen and (min-width: 1580px) {
+	.slider {
+		margin-left: 5vw;
+	}
+
+	.metierContent {
+		padding-bottom: 0;
+	}
 }
 
-.part {
+.slides {
 	background: #220e31;
+	width: 800px;
 	box-shadow: 10px 10px 25px rgb(19, 3, 36);
-	padding: 20px 50px 20px 50px;
-	margin: 10px;
+	padding: 10px 30px 30px 30px;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
-.fiche h2 {
+.previous,
+.next {
+	border: white solid 2px;
+	width: 40px;
+	height: 40px;
+	text-decoration: none;
+	transition: 0.3s ease;
+	background-color: transparent;
+	color: white;
+	margin: 0;
+}
+
+.previous:hover,
+.next:hover {
+	background-color: rgba(255, 255, 255, 0.2);
+	transition: 0.3s ease;
+	cursor: pointer;
+}
+
+.slider h2 {
 	font-family: "lemon milk";
-	font-size: 1.3rem;
+	font-size: 1.5rem;
 	font-style: italic;
+}
+
+.slider p {
+	margin-bottom: 0;
+}
+
+.metier img {
+	max-width: 380px;
+	max-height: 550px;
 }
 
 ::selection {
