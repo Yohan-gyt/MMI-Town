@@ -1,13 +1,13 @@
 <?php
-        $pdo = new PDO('mysql:host=localhost;dbname=mmi_town','root','root');
+        $pdo = new PDO('mysql:host=sqletud.u-pem.fr;dbname=yguyot01_db;charset=utf8','yguyot01','yohGUY2000');
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
         
         $stmt = $pdo->prepare(
         'SELECT *
-        FROM metier
-        INNER JOIN univers
-        ON metier.id_univers = univers.id
-        WHERE metier.id = :id
+        FROM mmi_town_metiers
+        INNER JOIN mmi_town_univers
+        ON mmi_town_metiers.id_univers = mmi_town_univers.id
+        WHERE mmi_town_metiers.id = :id
         ');
 
         $stmt->execute(array(':id'=>$_GET['id']));
