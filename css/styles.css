@@ -21,6 +21,7 @@
 *:after {
 	box-sizing: border-box;
 	outline: none;
+	overflow: hidden;
 }
 
 html {
@@ -163,6 +164,12 @@ header .parallax .seven {
 	transition: all 0.5s;
 }
 
+.fixed ul,
+.fixed li,
+.fixed a {
+	overflow: visible;
+}
+
 .fixed ul li a {
 	position: relative;
 }
@@ -244,6 +251,7 @@ p {
 	grid-column: 2/3;
 	grid-row: 2;
 	text-align: center;
+	overflow: visible;
 }
 
 .button a,
@@ -265,6 +273,11 @@ p {
 }
 
 /* SECTION COMMENCER */
+#metiers {
+	width: 100vw;
+	height: 100vh;
+}
+
 .commencer,
 .bat,
 .cover-top,
@@ -272,7 +285,11 @@ p {
 .cover-top2,
 .cover-top3,
 .cover-top4,
-.cover-top5 {
+.cover-top5,
+.audiovisuel,
+.design,
+.dev,
+.com {
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -292,12 +309,16 @@ p {
 	background-image: url("../img/commencer/bat-commencer.png");
 }
 
-.cover-top,
+.cover-top {
+	background-image: url("../img/commencer/cover-commencer.png");
+	background-position: top;
+}
+
 .cover-top2,
 .cover-top3,
 .cover-top4,
 .cover-top5 {
-	background-image: url("../img/commencer/cover-commencer.png");
+	background-image: url("../img/commencer/cover-top.png");
 	background-position: top;
 }
 
@@ -329,47 +350,229 @@ p {
 .design,
 .dev,
 .com {
-	width: 100vw;
-	height: 100vh;
-	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
 }
 
 .audiovisuel {
 	background-image: url("../img/univers/etage-audiovisuel.png");
+	left: 100vw;
 }
 
 .design {
 	background-image: url("../img/univers/etage-design.png");
+	left: 200vw;
 }
 
 .dev {
 	background-image: url("../img/univers/etage-dev.png");
+	left: 300vw;
 }
 
 .com {
 	background-image: url("../img/univers/etage-com.png");
+	left: 400vw;
 }
 
 .cover-top2 {
 	left: 100vw;
-	z-index: 0;
 }
 
 .cover-top3 {
 	left: 200vw;
-	z-index: 0;
 }
 
 .cover-top4 {
 	left: 300vw;
-	z-index: 0;
 }
 
 .cover-top5 {
 	left: 400vw;
-	z-index: 0;
+}
+
+/* PERSOS UNIVERS */
+/* AUDIOVISUEL */
+.persos {
+	width: 100vw;
+	position: absolute;
+	bottom: 0;
+}
+
+.perso {
+	display: inline-block;
+	position: relative;
+	margin-bottom: 1.3vh;
+}
+
+.perso img {
+	height: 50vh;
+}
+
+.real {
+	left: 22%;
+	filter: brightness(60%);
+	transition: ease-out 0.2s;
+}
+
+.real:hover {
+	filter: brightness(100%);
+	transition: ease-in 0.2s;
+}
+
+.videaste {
+	left: 55vw;
+	filter: brightness(60%);
+	transition: ease-out 0.2s;
+}
+
+.videaste:hover {
+	filter: brightness(100%);
+	transition: ease-in 0.2s;
+}
+
+/* DESIGN */
+.ui {
+	filter: brightness(60%);
+	transition: ease-out 0.2s;
+	left: 10%;
+}
+
+.ui:hover {
+	filter: brightness(100%);
+	transition: ease-in 0.2s;
+}
+
+.ux {
+	filter: brightness(60%);
+	transition: ease-out 0.2s;
+	left: 20%;
+}
+
+.ux:hover {
+	filter: brightness(100%);
+	transition: ease-in 0.2s;
+}
+
+.graphiste {
+	filter: brightness(60%);
+	transition: ease-out 0.2s;
+	left: 40%;
+}
+
+.graphiste:hover {
+	filter: brightness(100%);
+	transition: ease-in 0.2s;
+}
+
+.webdesigner {
+	filter: brightness(60%);
+	transition: ease-out 0.2s;
+	left: 50%;
+}
+
+.webdesigner:hover {
+	filter: brightness(100%);
+	transition: ease-in 0.2s;
+}
+
+/* DÉVELOPPEMENT */
+.reseaux {
+	filter: brightness(60%);
+	transition: ease-out 0.2s;
+	left: 12%;
+}
+
+.reseaux:hover {
+	filter: brightness(100%);
+	transition: ease-in 0.2s;
+}
+
+.back-end {
+	filter: brightness(60%);
+	transition: ease-out 0.2s;
+	left: 18%;
+}
+
+.back-end:hover {
+	filter: brightness(100%);
+	transition: ease-in 0.2s;
+}
+
+.devweb {
+	filter: brightness(60%);
+	transition: ease-out 0.2s;
+	left: 38%;
+}
+
+.devweb:hover {
+	filter: brightness(100%);
+	transition: ease-in 0.2s;
+}
+
+.front-end {
+	filter: brightness(60%);
+	transition: ease-out 0.2s;
+	left: 46%;
+}
+
+.front-end:hover {
+	filter: brightness(100%);
+	transition: ease-in 0.2s;
+}
+
+/* COMMUNICATION */
+.charge-com {
+	filter: brightness(60%);
+	transition: ease-out 0.2s;
+	left: 15%;
+}
+
+.charge-com:hover {
+	filter: brightness(100%);
+	transition: ease-in 0.2s;
+}
+
+.webmarketer {
+	filter: brightness(60%);
+	transition: ease-out 0.2s;
+	left: 25%;
+}
+
+.webmarketer:hover {
+	filter: brightness(100%);
+	transition: ease-in 0.2s;
+}
+
+.chef {
+	filter: brightness(60%);
+	transition: ease-out 0.2s;
+	left: 33%;
+}
+
+.chef:hover {
+	filter: brightness(100%);
+	transition: ease-in 0.2s;
+}
+
+.manager {
+	filter: brightness(60%);
+	transition: ease-out 0.2s;
+	left: 38%;
+}
+
+.manager:hover {
+	filter: brightness(100%);
+	transition: ease-in 0.2s;
+}
+
+.webmaster {
+	filter: brightness(60%);
+	transition: ease-out 0.2s;
+	left: 46%;
+}
+
+.webmaster:hover {
+	filter: brightness(100%);
+	transition: ease-in 0.2s;
 }
 
 /* SECTION ÉQUIPE */
@@ -454,6 +657,44 @@ p {
 	text-align: center;
 	display: flex;
 	justify-content: space-evenly;
+}
+
+.icons img {
+	filter: brightness(70%);
+	transition: ease-out 0.2s;
+}
+
+.icons img:hover {
+	filter: brightness(100%);
+	transition: ease-in 0.2s;
+}
+
+@media screen and (max-width: 950px) {
+	.equipe .container {
+		grid-template-columns: 5vw repeat(2, auto) 5vw;
+		grid-template-rows: auto auto auto;
+		grid-gap: 5vw;
+	}
+
+	.texte {
+		grid-column: 2/4;
+		grid-row: 1;
+	}
+
+	.jules {
+		grid-column: 3/4;
+		grid-row: 2;
+	}
+
+	.rachel {
+		grid-column: 2/3;
+		grid-row: 3;
+	}
+
+	.yohan {
+		grid-column: 3/4;
+		grid-row: 3;
+	}
 }
 
 /* PAGE FILIÈRE */
@@ -676,6 +917,11 @@ textarea {
 }
 
 /* FICHES MÉTIER */
+#filiere,
+#metier {
+	overflow-y: auto;
+}
+
 .metier {
 	background-image: url("../img/mmi-bg.png");
 	background-size: cover;
@@ -714,14 +960,10 @@ textarea {
 .slider {
 	display: flex;
 	align-items: center;
-	margin-left: 2vw;
+	margin-left: 8vw;
 }
 
 @media screen and (min-width: 1580px) {
-	.slider {
-		margin-left: 5vw;
-	}
-
 	.metierContent {
 		padding-bottom: 0;
 	}
@@ -766,8 +1008,8 @@ textarea {
 }
 
 .metier img {
-	max-width: 380px;
-	max-height: 550px;
+	width: 120%;
+	height: 120%;
 }
 
 ::-moz-selection {

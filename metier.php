@@ -17,7 +17,7 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="fr" dir="ltr" id="accueil">
+<html lang="fr" dir="ltr" id="metier">
 
 <head>
     <meta charset="UTF-8">
@@ -33,14 +33,14 @@
 </head>
 
 <body>
+    <?php foreach ($result as $result): ?>
     <div class="section">
         <nav class="fixed">
-            <a href="index.php" class="nav-link">
+            <a href="https://etudiant.u-pem.fr/~yguyot01/mmi-town/#metiers" class="nav-link">
                 <img src="img/logo-blanc.png" alt="ACCUEIL">
             </a>
         </nav>
     </div>
-    <?php foreach ($result as $result): ?>
     <section class="metier">
         <div class="texte_metier">
             <h3><?php echo $result['nomUnivers'];?></h3>
@@ -53,7 +53,7 @@
         <div class="metierContent">
             <div class="perso">
                 <div class="content_perso">
-                    <img src="perso.png" alt="" class="noSelect">
+                    <img src=" <?php echo $result['image'];?>" alt="" class="noSelect">
                 </div>
             </div>
 

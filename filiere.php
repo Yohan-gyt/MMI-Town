@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr" dir="ltr" id="accueil">
+<html lang="fr" dir="ltr" id="filiere">
 
 <head>
     <meta charset="UTF-8">
@@ -17,7 +17,7 @@
 <body>
     <div class="section">
         <nav class="fixed">
-            <a href="index.php" class="nav-link">
+            <a href="https://etudiant.u-pem.fr/~yguyot01/mmi-town/#filiere" class="nav-link">
                 <img src="img/logo-blanc.png" alt="ACCUEIL">
             </a>
         </nav>

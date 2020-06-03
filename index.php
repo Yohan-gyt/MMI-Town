@@ -19,6 +19,7 @@
         <div class="section">
             <header>
                 <div class="parallax">
+                
                     <span class="one"></span>
                     <span class="two"></span>
                     <span class="three"></span>
@@ -98,20 +99,107 @@
                 </div>
             </div>
 
-            <div class="slide audiovisuel" id="audiovisuel">
+            <div class="slide" id="audiovisuel">
+                <div class="audiovisuel"></div>
                 <div class="cover-top2"></div>
+                <div class="persos">
+                    <div class="perso real">
+                        <a href="metier.php?id=2">
+                            <img src="img/persos/soussi.png" alt="Réalisateur multimédia" class="noSelect">
+                        </a>
+                    </div>
+                    <div class="perso videaste">
+                        <a href="metier.php?id=1">
+                            <img src="img/persos/tasso.png" alt="Vidéaste" class="noSelect">
+                        </a>
+                    </div>
+                </div>
             </div>
 
-            <div class="slide design">
+            <div class="slide" id="design">
+                <div class="design"></div>
                 <div class="cover-top3"></div>
+                <div class="persos">
+                    <div class="perso ui">
+                        <a href="metier.php?id=3">
+                            <img src="img/persos/llopis.png" alt="UI designer" class="noSelect">
+                        </a>
+                    </div>
+                    <div class="perso ux">
+                        <a href="metier.php?id=4">
+                            <img src="img/persos/llopis2.png" alt="UX designer" class="noSelect">
+                        </a>
+                    </div>
+                    <div class="perso graphiste">
+                        <a href="metier.php?id=6">
+                            <img src="img/persos/poisson.png" alt="Graphiste web" class="noSelect">
+                        </a>
+                    </div>
+                    <div class="perso webdesigner">
+                        <a href="metier.php?id=5">
+                            <img src="img/persos/designerweb.png" alt="Web designer" class="noSelect">
+                        </a>
+                    </div>
+                </div>
             </div>
 
-            <div class="slide dev">
+            <div class="slide" id="developpement">
+                <div class="dev"></div>
                 <div class="cover-top4"></div>
+                <div class="persos">
+                    <div class="perso reseaux">
+                        <a href="metier.php?id=10">
+                            <img src="img/persos/berthet.png" alt="Gestionnaire de réseaux" class="noSelect">
+                        </a>
+                    </div>
+                    <div class="perso back-end">
+                        <a href="metier.php?id=9">
+                            <img src="img/persos/gambette.png" alt="Développeur back-end" class="noSelect">
+                        </a>
+                    </div>
+                    <div class="perso devweb">
+                        <a href="metier.php?id=7">
+                            <img src="img/persos/ferraille.png" alt="Développeur web" class="noSelect">
+                        </a>
+                    </div>
+                    <div class="perso front-end">
+                        <a href="metier.php?id=8">
+                            <img src="img/persos/charp.png" alt="Développeur front-end" class="noSelect">
+                        </a>
+                    </div>
+                </div>
             </div>
 
-            <div class="slide com">
+            <div class="slide" id="communication">
+                <div class="com"></div>
                 <div class="cover-top5"></div>
+                <div class="persos">
+                    <div class="perso charge-com">
+                        <a href="metier.php?id=12">
+                            <img src="img/persos/bister.png" alt="Chargé de communication" class="noSelect">
+                        </a>
+                    </div>
+                    <div class="perso webmarketer">
+                        <a href="metier.php?id=14"">
+                            <img src="img/persos/leyla.png" alt="Webmarketer" class="noSelect">
+                        </a>
+                    </div>
+                    <div class="perso chef">
+                        <a href="metier.php?id=11"">
+                            <img src="img/persos/tasso-com.png" alt="Chef de projet multimédia" class="noSelect">
+                        </a>
+                    </div>
+                    <div class="perso manager">
+                        <a href="metier.php?id=13"">
+                            <img src="img/persos/charp-com.png" alt="Community manager" class="noSelect">
+                        </a>
+                    </div>
+                    <div class="perso webmaster">
+                        <a href="metier.php?id=15"">
+                            <img src="img/persos/dallet.png" alt="Webmaster" class="noSelect">
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -126,7 +214,7 @@
                         </p>
                     </div>
                     <div class="card minal">
-                        <img src="img/equipe/head.png" alt="" class="profil noSelect">
+                        <img src="img/equipe/minal.png" alt="" class="profil noSelect">
                         <h2>MINAL</h2>
                         <h3>Cheffe de projet</h3>
                         <p>
@@ -146,16 +234,16 @@
                         </div>
                     </div>
                     <div class="card jules">
-                        <img src="img/equipe/head.png" alt="" class="profil noSelect">
+                        <img src="img/equipe/jules.png" alt="" class="profil noSelect">
                         <h2>JULES</h2>
                         <h3>Graphiste</h3>
                         <p>
                             Graphiste de l’équipe, Jules a conçu les wireframes, les illustrations ainsi que tous
                             les petits éléments graphiques du
-                            site Internet. Polyvalent, il a prêté main forte sur le développement de MMi Town.
+                            site Internet. Polyvalent, il a prêté main forte sur le développement de MMI Town.
                         </p>
                         <div class="icons">
-                            <a href="#" target="_blank">
+                            <a href="cv_jules_cointrel.pdf" target="_blank">
                                 <img src="img/equipe/doc.png" alt="" title="CV PDF">
                             </a>
                             <a href="#" target="_blank">
@@ -164,14 +252,14 @@
                         </div>
                     </div>
                     <div class="card rachel">
-                        <img src="img/equipe/head.png" alt="" class="profil noSelect">
+                        <img src="img/equipe/rachel.png" alt="" class="profil noSelect">
                         <h2>RACHEL</h2>
                         <h3>Développeuse full-stack</h3>
                         <p>
                             Développeuse full-stack de l'équipe, Rachel à avec Yohan codé le site web et ses fonctionnalités à partir des wireframes de Jules. Elle s'est également occupé de la création et de la gestion de la base de données.
                         </p>
                         <div class="icons">
-                            <a href="#" target="_blank">
+                            <a href="cv_rachel_albersario.pdf" target="_blank">
                                 <img src="img/equipe/doc.png" alt="" title="CV PDF">
                             </a>
                             <a href="#" target="_blank">
@@ -180,7 +268,7 @@
                         </div>
                     </div>
                     <div class="card yohan">
-                        <img src="img/equipe/head.png" alt="" class="profil noSelect">
+                        <img src="img/equipe/yohan.png" alt="" class="profil noSelect">
                         <h2>YOHAN</h2>
                         <h3>Développeur full-stack</h3>
                         <p>
@@ -190,7 +278,7 @@
                             <a href="cv/cv_yohan_guyot.pdf" target="_blank">
                                 <img src="img/equipe/doc.png" alt="CV PDF" title="CV PDF">
                             </a>
-                            <a href="http://perso-etudiant.u-pem.fr/~yguyot01/cv/" target="_blank">
+                            <a href="https://etudiant.u-pem.fr/~yguyot01/cv-numerique/" target="_blank">
                                 <img src="img/equipe/ordi.png" alt="CV NUMÉRIQUE" title="CV NUMÉRIQUE">
                             </a>
                         </div>
@@ -224,12 +312,6 @@
                     </form>
                 </div>
             </section>
-            <h2>liens vers quelques pages métiers</h2>
-            <a href="metier.php?id=1" target="_blank"><div class="button">id 1</div></a>
-            <a href="metier.php?id=2" target="_blank"><div class="button">id 2</div></a>
-            <a href="metier.php?id=3" target="_blank"><div class="button">id 3</div></a>
-            <a href="metier.php?id=4" target="_blank"><div class="button">id 4</div></a>
-
         </div>
     </div>
 
@@ -240,6 +322,7 @@
         new fullpage('#fullPage', {
             autoScrolling: false,
             fixedElements: '.fixed',
+            loopHorizontal:false
         })
 
         $('#commencer').click(function () {
