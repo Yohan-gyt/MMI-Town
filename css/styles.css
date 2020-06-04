@@ -278,6 +278,11 @@ p {
 	height: 100vh;
 }
 
+#metiers .fp-controlArrow.fp-next,
+#metiers .fp-controlArrow.fp-prev {
+	display: none;
+}
+
 .commencer,
 .bat,
 .cover-top,

@@ -92,7 +92,7 @@
 
                 <div class="container-commencer">
                     <h1>DÉCOUVRE LES MÉTIERS</h1>
-                    <p>Pars à la découverte des métiers disponibles après avoir fait un DUT MMI en te baladant dans les univers dédiés à l'audiovisuel, au design, à l'informatique et à la communication. Bonne visite !</p>
+                    <p>Pars à la découverte des métiers disponibles après avoir fait un DUT MMI en te baladant dans l'immeuble MMI et ses univers dédiés à l'audiovisuel, au design, à l'informatique et à la communication. Bonne visite !</p>
                     <div class="button noSelect" id="commencer">
                         <p>COMMENCER</p>
                     </div>
@@ -322,7 +322,17 @@
         new fullpage('#fullPage', {
             autoScrolling: false,
             fixedElements: '.fixed',
-            loopHorizontal:false
+            afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){
+                var loadedSlide = $(this);
+                
+                if (index == 0){
+                    $('div.fp-controlArrow.fp-next').fadeOut();
+                    $('div.fp-controlArrow.fp-prev').fadeOut();
+                } else {
+                    $('div.fp-controlArrow.fp-next').fadeIn();
+                    $('div.fp-controlArrow.fp-prev').fadeIn();
+                }
+            }
         })
 
         $('#commencer').click(function () {
