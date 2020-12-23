@@ -61,7 +61,7 @@
                             digitale et de l’internet.
                             <br>
                             C’est une formation pluridisciplinaire répartie sur 2 ans (4 semestres), les étudiants
-                            acquiert un
+                            acquièrent un
                             ensemble de compétences et de savoir-faire qui leur permettront d’exercer dans le secteur de
                             la
                             communication, du design, du développement web, de l’audiovisuel et de la gestion de projet
@@ -228,7 +228,7 @@
                             <a href="cv/cv_minal_lad.pdf" target="_blank">
                                 <img src="img/equipe/doc.png" alt="" title="CV PDF">
                             </a>
-                            <a href="#" target="_blank">
+                            <a href="https://etudiant.u-pem.fr/~mlad1/cv-interactif/" target="_blank">
                                 <img src="img/equipe/ordi.png" alt="" title="CV NUMÉRIQUE">
                             </a>
                         </div>
@@ -243,10 +243,10 @@
                             site Internet. Polyvalent, il a prêté main forte sur le développement de MMI Town.
                         </p>
                         <div class="icons">
-                            <a href="cv_jules_cointrel.pdf" target="_blank">
+                            <a href="cv/cv_jules_cointrel.pdf" target="_blank">
                                 <img src="img/equipe/doc.png" alt="" title="CV PDF">
                             </a>
-                            <a href="#" target="_blank">
+                            <a href="https://etudiant.u-pem.fr/~jcointre/cv/" target="_blank">
                                 <img src="img/equipe/ordi.png" alt="" title="CV NUMÉRIQUE">
                             </a>
                         </div>
@@ -256,13 +256,13 @@
                         <h2>RACHEL</h2>
                         <h3>Développeuse full-stack</h3>
                         <p>
-                            Développeuse full-stack de l'équipe, Rachel à avec Yohan codé le site web et ses fonctionnalités à partir des wireframes de Jules. Elle s'est également occupé de la création et de la gestion de la base de données.
+                            Développeuse full-stack de l'équipe, Rachel a avec Yohan codé le site web et ses fonctionnalités à partir des wireframes de Jules. Elle s'est également occupée de la création et de la gestion de la base de données.
                         </p>
                         <div class="icons">
-                            <a href="cv_rachel_albersario.pdf" target="_blank">
+                            <a href="cv/cv_rachel_albersario.pdf" target="_blank">
                                 <img src="img/equipe/doc.png" alt="" title="CV PDF">
                             </a>
-                            <a href="#" target="_blank">
+                            <a href="https://etudiant.u-pem.fr/~ralbersa/cv-numerique/" target="_blank">
                                 <img src="img/equipe/ordi.png" alt="" title="CV NUMÉRIQUE">
                             </a>
                         </div>
@@ -272,7 +272,7 @@
                         <h2>YOHAN</h2>
                         <h3>Développeur full-stack</h3>
                         <p>
-                            Développeur full-stack de l'équipe, Yohan à avec Rachel codé le site web et ses fonctionnalités à partir des wireframes de Jules. Il s'est également occupé de la création et de la gestion de la base de données.
+                            Développeur full-stack de l'équipe, Yohan a avec Rachel codé le site web et ses fonctionnalités à partir des wireframes de Jules. Il s'est également occupé de la création et de la gestion de la base de données.
                         </p>
                         <div class="icons">
                             <a href="cv/cv_yohan_guyot.pdf" target="_blank">

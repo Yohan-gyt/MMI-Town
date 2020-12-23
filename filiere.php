@@ -96,7 +96,7 @@
                             <br>
                             Ne panique pas !
                             Il s’agit de sciences
-                            orientés multimédias. Tu vas pouvoir découvrir et apprendre des tas de choses concernant par
+                            orientées multimédias. Tu vas pouvoir découvrir et apprendre des tas de choses concernant par
                             exemple la façon dont est traitée l'image, le son et la vidéo dans ton ordinateur.
                         </p>
                     </div>
